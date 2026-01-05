@@ -8,4 +8,3 @@ students = [
     (104, "David Wilson", "Computer Science"),
     (105, "Eve Lewis", "Mathematics")
 ]
-print(students[0][2])
