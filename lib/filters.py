@@ -1,5 +1,4 @@
 # This module contains functions for filtering student data.
-from student_data import students
 
 def filter_students_by_major(student_list, major):
     filtered_list = [student[1] for student in student_list if student[2].lower() == major.lower()]
@@ -10,4 +9,4 @@ def filter_students_by_major(student_list, major):
     - Return a new list containing only students that match.
     """
     return(filtered_list)
-    pass
+    passs

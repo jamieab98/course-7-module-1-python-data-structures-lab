@@ -1,5 +1,4 @@
 # This module contains operations related to sets.
-from student_data import students
 
 def unique_majors(student_list):
     unique = {major[2] for major in student_list}
@@ -11,5 +10,3 @@ def unique_majors(student_list):
     Extract the major field from each student record.
     """
     pass
-
-unique_majors(students)

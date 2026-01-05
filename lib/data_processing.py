@@ -25,5 +25,3 @@ def display_students(student_list):
     Loop through the student_list and print each student using format_student_data().
     """
     pass
-
-display_students(students)
