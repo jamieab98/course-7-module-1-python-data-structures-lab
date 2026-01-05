@@ -1,7 +1,7 @@
 # This module contains functions to process student data.
 
 def format_student_data(student):
-    returned_string = f"ID: {student[0]} | Name: {student[1]} | Major: {student[1]}"
+    returned_string = f"ID: {student[0]} | Name: {student[1]} | Major: {student[2]}"
     print(returned_string)
     return(returned_string)
     """
